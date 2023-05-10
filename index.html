@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="https://localhost/portfolio/src/img/favicon.ico">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="bootstrap/font/bootstrap-icons.min.css">
   <style>
@@ -121,11 +122,11 @@
   </header>
   <nav>
     <ul class="menu">
-      <li class="menu-title"><a href="#about"><span class="txt_about">About</span></a></li>
-      <li class="menu-title"><a href="#skills"><span class="txt_skills">Skills</span></a></li>
-      <li class="menu-title"><a href="#interests"><span class="txt_interests">Interests</span></a></li>
-      <li class="menu-title"><a href="#projects"><span class="txt_projects">Projects</span></a></li>
-      <li class="menu-title"><a href="#contact"><span class="txt_contact">Contact</span></a></li>
+      <li class="menu-title"><a href="#about"><span class="txt_about"><h4> About</h4></span></a></li>
+      <li class="menu-title"><a href="#skills"><span class="txt_skills"><h4>Skills</h4></span></a></li>
+      <li class="menu-title"><a href="#interests"><span class="txt_interests"><h4>Interests</h4></span></a></li>
+      <li class="menu-title"><a href="#projects"><span class="txt_projects"><h4>Projects</h4></span></a></li>
+      <li class="menu-title"><a href="#contact"><span class="txt_contact"><h4>Contact</h4></span></a></li>
     </ul>
   </nav>
   <main>
@@ -139,7 +140,7 @@
       <p>where i developed a project like Ebay using native web laguages ( html css js php mysql).</p>
       <p>Then i went to university to study computer engineer.</p>
     
-    <h4>Professional experience:</h4>
+    <h2>Professional experience:</h2>
     <table class="table table-striped table-hover">
       <thead>
         <tr>
@@ -152,9 +153,12 @@
       <tbody>
         <tr>
           <td>Acin</td>
-          <td>PHP</td>
+          <td>HTML, CSS, JS, PHP, MYSQL, REACTJS</td>
           <td>3 years</td>
-          <td>Global Trusted Sign - platform to sell digital stumps and ssl certificates</td>
+          <td>
+            <p>Global Trusted Sign - Platform to sell digital stumps and ssl certificates</p>
+            <p>Icontabilidade - Platform to help companies with their accounting.</p>
+          </td>
         </tr>
         <tr>
           <td>TVApp Agency</td>
@@ -164,13 +168,13 @@
         </tr>
         <tr>
           <td>Unipartner Madeira</td>
-          <td>#C .net</td>
+          <td>#C .net, nodeJS </td>
           <td>1 year</td>
           <td>--</td>
         </tr>
       </tbody>
     </table>
-    <h4>Hobies:</h4>
+    <h2>Hobies:</h2>
     <ul>
       <li>
         Spearfishing
@@ -189,8 +193,42 @@
     <section id="skills">
         <h2>Skills</h2>
         <ul>
+          <li>
+            <h3>Web - Back End</h3>
+            <ul class="skills-list">
+              <li class="skill-list-item">
+                CSHARP
+                <img class="programming-image" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/csharp/csharp-plain.svg" alt="C#">
+                <div class="progress w-100">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated bg-success w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </li>
+            <li class="skill-list-item">
+              PHP
+              <img class="programming-image" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/php/php-original.svg" alt="PHP">
+              <div class="progress w-100">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success w-100"  role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+          </li>
+          <li class="skill-list-item">
+              MYSQL
+              <img class="programming-image" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/mysql/mysql-original.svg" alt="Mysql">
+              <div class="progress w-100">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success w-100"  role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+          </li>
+          <li class="skill-list-item">
+            NodeJS
+            <img class="programming-image" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/nodejs/nodejs-original.svg" alt="NodeJS">
+            <div class="progress w-100">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-success s-80"  role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </li>
+            </ul>
+            </li>
+
             <li>
-              <h3>Web - full stack</h3>
+              <h3>Web - Front End</h3>
               <ul class="skills-list">
                 <li class="skill-list-item">
                     <span>HTML</span>
@@ -207,19 +245,27 @@
                     </div>
                 </li>
                 <li class="skill-list-item">
+                  SCSS
+                  <img class="programming-image" src="https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg" alt="SCSS" />
+                  <div class="progress w-100">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success w-100" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+              </li>
+              <li class="skill-list-item">
+                Less
+                <img class="programming-image" src="https://lesscss.org/public/img/less_logo.png" alt="Less" />
+                <div class="progress w-100">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated bg-success w-100" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </li>
+                <li class="skill-list-item">
                     JAVASCRIPT
                     <img class="programming-image" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/javascript/javascript-original.svg" alt="JS">
                     <div class="progress w-100">
                       <div class="progress-bar progress-bar-striped progress-bar-animated bg-success w-100" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                 </li>
-                <li class="skill-list-item">
-                    CSHARP .NET
-                    <img class="programming-image" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/csharp/csharp-plain.svg" alt="C#">
-                    <div class="progress w-100">
-                      <div class="progress-bar progress-bar-striped progress-bar-animated bg-success w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                </li>
+                
                 <li class="skill-list-item">
                     REACT JS
                     <img class="programming-image" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/react/react-original.svg" alt="ReactJs">
@@ -227,20 +273,7 @@
                       <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width:80%;" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                 </li>
-                <li class="skill-list-item">
-                    PHP
-                    <img class="programming-image" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/php/php-original.svg" alt="PHP">
-                    <div class="progress w-100">
-                      <div class="progress-bar progress-bar-striped progress-bar-animated bg-success w-100"  role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                </li>
-                <li class="skill-list-item">
-                    MYSQL
-                    <img class="programming-image" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/mysql/mysql-original.svg" alt="Mysql">
-                    <div class="progress w-100">
-                      <div class="progress-bar progress-bar-striped progress-bar-animated bg-success w-100"  role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                </li>
+                
               </ul>
             </li>
             <li>
@@ -267,6 +300,14 @@
           <li>
             <h2>Other</h2>
             <ul>
+              <li class="skill-list-item">
+                Python
+                <img class="programming-image" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/python/python-original.svg" alt="Python">
+                <div class="progress w-100">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated bg-success w-100"  role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </li>
+
               <li class="skill-list-item">
                 Pascal
                 <img class="programming-image" src="https://www.tutorialspoint.com/pascal/images/pascal-mini-logo.jpg" alt="Pascal">
@@ -380,6 +421,34 @@
                 </li>
               </ul>
             </li>
+            <li>
+              <p>
+            <h3>Version Control</h3>
+          </p>
+            <ul>
+              <li class="skill-list-item">
+                  git
+                  <img class="programming-image" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/git/git-original.svg" alt="Git">
+                  <div class="progress w-100">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success w-100"  role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+              </li>
+              <li class="skill-list-item">
+                  TFS (Microsoft)
+                  <img class="programming-image" >
+                  <div class="progress w-100">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success w-100"  role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+              </li>
+              <li class="skill-list-item">
+                TortoiseSVN
+                <img class="programming-image" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/react/react-original.svg" alt="ReactNative">
+                <div class="progress w-100">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated bg-success w-100"  role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </li>
+            </ul>
+          </li>
           </ul>
       </section>
     <section id="interests">
@@ -415,8 +484,9 @@
       </ul>
     </section>
     <section id="contact">
-      <h2>Git</h2>
-      <h2>Contact Me</h2>
+      <h2>Contact</h2>
+      <h4> <a href="https://github.com/solvingIssues" target="_blank"> Git</a></h4>
+
       <p>
         <a href = "mailto: carloscorreia@protonmail.com">Send Email</a>
       </p>
