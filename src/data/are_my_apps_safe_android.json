@@ -1,0 +1,17 @@
+{
+    "version": "0.1",
+    "apps" : [
+        {
+            "appName": "",
+            "pakageName": "",
+            "version": "",
+            "platform": "",
+            "playstoreUrl": "",
+            "description": "",
+            "developer": [
+                "dev1",
+                "dev2"
+            ]
+        }
+    ]
+}
