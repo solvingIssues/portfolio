@@ -31,6 +31,7 @@ body {
     border-radius: 25%;
     padding: 5%;
     height: 100%;
+    margin: auto;
   }
   main {
     padding: 1rem;
