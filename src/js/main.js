@@ -57,7 +57,7 @@
 
   function setProjects() {
     $.ajax({
-      type: "POST",
+      type: "GET",
       url: "src/data/projects.json",
       success: function(data) {
         projects = data.projects;
