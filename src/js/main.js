@@ -141,14 +141,23 @@
 
   function buildProjectsTable() {
     let html = "";
+    let link = "";
     $.each(projects, function(index, el) {
       html += "<tr>";
       html += "<td>" + el.project + "</td>";
       html += "<td>" + el.description + "</td>";
-      //html += "<td>" + el.technology + "</td>";
+      html += "<td>" + el.technology + "</td>";
       html += "<td>" + setProjectStatus(el.status) + "</td>";
+      if(typeof(el.website) == null || el.website.length < 5) {
+        link = el.repository;
+      } else {
+        link = el.website;
+      }
+      html += "<td>" + '<a href="' + link +'" target="_blank">Visit</a>' + "</td>";
+      /*
       html += "<td>" + '<a href="' + el.repository +'" target="_blank">Visit</a>' + "</td>";
       html += "<td>" + '<a href="' + el.website +'" target="_blank">Visit</a>' + "</td>";
+      */
       html += "</tr>";
     });
     $($("#tableProjects").find("tbody")).html(html);
