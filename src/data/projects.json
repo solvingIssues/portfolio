@@ -1,0 +1,20 @@
+{
+    "projects": [
+        {
+            "project": "José Correia Portfolio",
+            "description": "My Portfolio WebPage",
+            "technology": "html css js jquery bootstrap",
+            "status": 2,
+            "repository": "https://github.com/solvingIssues/portfolio",
+            "website":"http://www.josecorreia.tk"
+        },
+        {
+            "project": "Rising Nations",
+            "description": "Survival Game",
+            "technology": "Unreal 5",
+            "status": 1,
+            "repository": "https://github.com/solvingIssues/portfolio",
+            "website":"http://www.josecorreia.tk"
+        }
+    ]
+}

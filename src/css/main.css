@@ -1,8 +1,8 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Convergence';
     margin: 0;
     padding: 0;
-  }
+}
   header {
     background-color: #333;
     color: #fff;
@@ -16,7 +16,6 @@ body {
     margin: 0;
   }
   nav {
-    /*background-color: #eee;*/
     background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
     padding: 1rem;
     text-align: center;
@@ -26,21 +25,18 @@ body {
     margin: 0;
     padding: 0;
   }
-  .menu>.menu-title {
+  .menu>.row>.menu-title {
     display: inline-block;
-    /*margin-right: 1rem;*/
     cursor: pointer;
-    border-radius: 15%;
+    border-radius: 25%;
     padding: 5%;
     height: 100%;
   }
   main {
     padding: 1rem;
-    /*background-color: #CCC;*/
-    /*background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);*/
     background-color: #E4E4E1;
-background-image: radial-gradient(at top center, rgba(255,255,255,0.03) 0%, rgba(0,0,0,0.03) 100%), linear-gradient(to top, rgba(255,255,255,0.1) 0%, rgba(143,152,157,0.60) 100%);
-   background-blend-mode: normal, multiply;
+    background-image: radial-gradient(at top center, rgba(255,255,255,0.03) 0%, rgba(0,0,0,0.03) 100%), linear-gradient(to top, rgba(255,255,255,0.1) 0%, rgba(143,152,157,0.60) 100%);
+    background-blend-mode: normal, multiply;
   }
   section {
     border: 5px solid WHITE;
@@ -67,6 +63,7 @@ background-image: radial-gradient(at top center, rgba(255,255,255,0.03) 0%, rgba
     height: 25px;
     margin-bottom: 5px;
   }
+  
   .s-10 {
     width: 10%;
   }
@@ -102,4 +99,11 @@ background-image: radial-gradient(at top center, rgba(255,255,255,0.03) 0%, rgba
   }
   .subtitle{
     font-weight: bold;
+  }
+
+  .nav-item.links-tab {
+    padding: 5px;
+    margin-right: 5px;
+    background-color: aqua;
+    cursor: pointer;
   }
